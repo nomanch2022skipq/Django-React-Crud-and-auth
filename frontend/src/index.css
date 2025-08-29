@@ -1,0 +1,316 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 10vh;
+  background-color: #282c34;
+  color: white;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Style for the container div */
+.input_data {
+  max-width: 300px; /* Adjust the width as needed */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 5rem;
+}
+
+/* Style for the input fields */
+.input_data input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the button */
+.input_data button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+.input_data button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the main product div */
+.main_product_div {
+  max-width: 400px; /* Adjust the width as needed */
+  margin: 20px auto; /* Center the div and add margin */
+  padding: 20px;
+  border: 1px solid #ddd; /* Use a light border color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the data list */
+.data {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for list items */
+.data li {
+  margin-bottom: 10px;
+}
+
+/* Style for the delete button */
+.data button {
+  background-color: #ff5c5c;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for the delete button */
+.data button:hover {
+  background-color: #ff3b3b;
+}
+
+/* Add this CSS to your existing stylesheet or in the style tag of your component */
+button.editButtom {
+  background-color: #3498db; /* Choose your desired color */
+  color: #fff; /* Text color */
+  /* padding: 8px 15px; Adjust padding as needed */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  margin-left: 10px;
+
+  /* Optional: Add hover effect */
+}
+
+button.editButtom:hover {
+  background-color: #2980b9; /* Adjust hover color as needed */
+}
+
+/* Login.css */
+
+.login-container {
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.btn-btn {
+  padding: 15px;
+  background-color: #34495e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-btn:hover {
+  background-color: #2a3b4d;
+}
+
+/* General styling */
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  /* padding: 20px; */
+}
+
+.dashboard-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  max-width: 800px; /* Adjust for desired width */
+  margin: 0 auto;
+  margin-top: 20px; /* Added margin from top */
+}
+
+/* Header styling */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table styling */
+
+/* .data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+} */
+
+/* th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Row hover effect */
+tr:hover {
+  background-color: #f5f5f5;
+  /* Updated hover color */
+}
+*/
+
+/* Button styling */
+/* Button styling */
+.deleteButton,
+.editButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  transition: all 0.2s ease-in-out; /* Added transition for smoother hover effects */
+}
+
+.deleteButton {
+  color: #dc3545; /* Red */
+}
+
+.deleteButton:hover {
+  color: #c82333; /* Darker red */
+  background-color: #f5f5f5; /* Added background color change on hover */
+}
+
+.editButton {
+  color: #28a745; /* Green */
+}
+
+.editButton:hover {
+  color: #218838; /* Darker green */
+  background-color: #f5f5f5; /* Added background color change on hover */
+}
+
+/* Basic Styles */
+.categories-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-heading {
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-row td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #f0f0f0;
+}
+
+/* .deleteButton, .editButton {
+  color: #fff;
+  padding: 8px;
+  cursor: pointer;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.deleteButton {
+  background-color: #e74c3c;
+}
+
+.editButton {
+  background-color: #3498db;
+} */
